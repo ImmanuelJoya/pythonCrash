@@ -1,0 +1,18 @@
+print("Hello there lets see how many more years u got until u reach 120")
+age = int(input("Enter your age please: "))  # Get user input
+
+result = 120 - age  # Calculate how many years left until 120
+
+if age >= 120:
+    print("Not you, you're old as f***!")  # Message for people 120 or older
+    print("thank U")
+elif result >=20:
+    print(f"Oh look at u, u lil {age} years old rascal, u got {result} years to go.")
+    print("thank U")
+elif age >= 100:
+    print(f"hang in there ur just {result} years away from 120")
+    print("thank U")
+else:
+    print(f"You are {result} years away from 120.")  # Message for people under 120
+    print("thank U")
+
