@@ -52,4 +52,4 @@ def add_watermark(input_pdf, watermark_text, output_pdf):
 # text = extract_text("sample.pdf")
 # merge_pdfs(["file1.pdf", "file2.pdf"], "merged.pdf")
 # split_pdf("sample.pdf", "output_folder")
-# add_watermark("sample.pdf", "CONFIDENTIAL", "watermarked.pdf") 
+# add_watermark("sample.pdf", "CONFIDENTIAL", "watermarked.pdf") +
